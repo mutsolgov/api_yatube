@@ -26,9 +26,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'posts.apps.PostsConfig',
     'rest_framework',
-    'djoser',
+    # 'djoser',
     'rest_framework.authtoken',
-    'api',
+    'api.apps.ApiConfig',
 ]
 
 MIDDLEWARE = [
